@@ -19,6 +19,7 @@ a{
     --primary-color: #30B868;
     --title-color:#001931;
     --para-color: rgba(255, 255, 255, 1);;
+    --para2-color:color: var(--#627382, rgba(98, 115, 130, 1));  
     --white-color:#FFFFFF;
     --button-color:rgba(249, 85, 85, 1);
     --menu-color:var(--#000000, rgba(0, 0, 0, 1));
@@ -119,4 +120,49 @@ p{
     font-size: 1.2rem;
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
+}
+.card-container{
+    padding: 36px 0 50px;
+}
+.text{
+    text-align: center;
+    margin:20px 0 50px ;
+}
+.text h1{
+    color: var(--title-color);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.text p{
+    color: var(--para2-color);
+    font-size: 1rem;
+}
+/* card */
+ .card-box .card1 img{
+    background-color: var(--button-color);
+    padding: 10px;
+    border-radius: 25px;
+}
+ .card-box .card1 h2{
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px;
+}
+ .card-box .card1 p{
+    color: var(--para2-color);
+    font-size: .8rem;
+    font-weight: 400;
+}
+.card-box .card1{
+  text-align: center;
+   
+  padding: 10px;
+  margin: 30px 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+
+}
+.card-box{
+    display: flex;
+    gap: 15px;
 }
