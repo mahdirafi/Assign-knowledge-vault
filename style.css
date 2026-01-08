@@ -18,7 +18,7 @@ a{
 :root{
     --primary-color: #30B868;
     --title-color:#001931;
-    --para-color:#627382;
+    --para-color: rgba(255, 255, 255, 1);;
     --white-color:#FFFFFF;
     --button-color:rgba(249, 85, 85, 1);
     --menu-color:var(--#000000, rgba(0, 0, 0, 1));
@@ -55,7 +55,7 @@ nav{
     font-weight: 600;
     padding: 10px 15px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
     color: var(--white-color);
 }
@@ -64,4 +64,59 @@ nav{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     transition:1s ease-in-out ;
+}
+.btn3{
+     font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 15px;
+      border-radius: 5px;
+    background-color: #ffffff00;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    margin-left: 10px;
+}
+.btn3:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition:.8s ease-in-out ;
+}
+#bannar{
+    background: url(images/hero-bg.png);
+    padding: 300px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.bannar-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center  ;
+}
+.btn2{
+    padding: 10px 8px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.btn2 i .fa-solid{
+    color: #30B868;
+}
+.title h1{
+    color: var(--white-color);
+    font-size: 5rem;
+    margin: 1.5rem 0;
+}
+span{
+    color: var(--primary-color);
+}
+p{
+    color: var(--para-color);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
 }
