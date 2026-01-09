@@ -166,3 +166,38 @@ p{
     display: flex;
     gap: 15px;
 }
+.solution-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+}
+.text h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.text h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--title-color);
+    text-transform: capitalize;
+    margin: 10px 0 30px;
+}
+.text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--para2-color);
+    margin: 0 0 40px;
+}
+.list{
+    display: flex;
+    gap: 10px ;
+    margin-bottom: 10px;
+}
+.list h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--title-color);
+
+}
