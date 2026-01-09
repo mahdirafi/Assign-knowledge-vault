@@ -184,11 +184,11 @@ p{
     text-transform: capitalize;
     margin: 10px 0 30px;
 }
-.text p{
+.text p , #info .container p{
     font-size: 1rem;
     font-weight: 400;
     color: var(--para2-color);
-    margin: 0 0 40px;
+    margin: 0 0 30px;
 }
 .list{
     display: flex;
@@ -200,4 +200,18 @@ p{
     font-weight: 500;
     color: var(--title-color);
 
+}
+#info{
+    text-align: center;
+    margin: 100px 0;
+}
+#info .container h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--title-color);
+    text-transform: capitalize;
+    margin: 10px 0 10px;
+}
+#info button {
+    margin-bottom: 20px;
 }
